@@ -441,6 +441,111 @@ body {
 			.ConnectWithMeContainer3 {
 				width:230px;
 			}
-			
 	}
 
+@media (max-width: 768px) {
+		.mainContentboxHeader1 {
+				margin-left:0px;
+		}
+		#name1 {
+			width:200px;
+		}
+		.mainContentbox	{
+				margin-left:5px;
+				width:100%;
+		}
+		.aboutMeContainer {
+				width:96%;
+				height: 450px;
+				margin-left:5px;
+
+		}
+		.container2bPortfolio {
+				height: 1200px;
+		}
+		#portfolioContainer {
+				width: 95%;
+				height:780px;
+		}
+		#contactContainer {
+			height: 550px;
+			width: 97%;
+		}
+		.container2b {
+			height:1000px;
+		}
+		#text1 {
+			font-family: arial;
+			font-size: 16px;
+			color: #939da0;
+			float:left;
+			width: 300px;
+			padding-left: 25px;
+			margin-top: -10px;
+
+
+		}
+		#profile1 {
+			width:175px;
+			padding-left:0px;
+			float:left;
+
+		}
+		#text2 {
+			font-family: arial;
+			font-size: 16px;
+			color: #939da0;
+			width: 530px;
+			padding-left:30px;
+			float:left;
+			margin-left:-5px;
+			
+		}
+		.ConnectWithMeContainer {
+				width:93%;
+				margin-top: 100px;
+				margin-right:10px;
+			}
+		.ConnectWithMeContainer2 {
+				width:94%;
+				margin-top: 100px;
+				margin-right:11px;
+			}
+		.ConnectWithMeContainer3 {
+				width:93%;
+				margin-top: 100px;
+				margin-right:10px;
+			}
+		.ConnectwithMeText {
+			width:95%;
+			text-align: left;
+			padding-bottom: 3px;
+		}
+		#gitHub2 {
+			margin-left: 40px;
+		}
+		#pic1  {
+				height: 175px;
+		}
+		#pic2  {
+				height: 175px;
+				margin-left:22px;
+				width:230px;
+		}
+		#pic3  {
+				height: 175px;
+				margin-left:29px;
+				width:230px;;
+		}
+		#pic4  {
+				height: 175px;
+				margin-left:29px;
+				width:230px;
+		}
+		#pic5  {
+				height: 175px;
+				margin-left:29px;
+				width:230px;
+		}
+
+	}
