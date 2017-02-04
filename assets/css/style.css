@@ -1,0 +1,419 @@
+body {
+	margin: 0
+}
+
+		.mainContentboxHeader1 {
+			width: 960px;
+			margin-left: 155px;
+
+		}
+
+		.mainContentbox {
+			width: 960px;
+			height: 800px;
+			margin-left: 155px;
+
+		}
+
+
+
+
+		.container1 {
+			height: 85px;
+			border-bottom: 5px;
+			background-color: #FFFFFF;
+    		border-bottom-style: solid;
+    		border-color:#D3D3D3;
+    		padding: 0 1em;
+		}
+		#name1 {
+			width:240px;
+			height: 100%;
+			line-height: 85px;
+			margin-top: 0px;
+			display: inline-block;
+			background-color:#4aaaa5;
+			font-size: 27px;
+			color: #FFFFFF ;
+			text-align: center;
+			font-family: 'Georgia', Times, serif;
+			font-weight: bold;
+		    align-items: center;
+		    justify-content: center;
+			}
+		#aboutMe {
+			font-family:'Georgia', Times, serif;
+			font-size: 30px;
+			color:#4aaaa5;
+			padding:20px;
+			padding-left: 20px;
+		}
+
+		.mainContent {
+			width: 600px;
+			padding-top: 30px;
+			border-top:3px solid #D3D3D3;
+			margin-top: -17px;
+			margin-left: 20px;
+		}
+		.top-bar {
+			float: right;
+			display: inline-block;
+			line-height: 25px;
+			margin: 30px 0;
+			padding: 0 10px;
+			font-family: 'Georgia';
+			font-size:20px;
+			color: #898989;
+			border-right: 1px solid #898989;
+
+		}
+
+		.top-bar:last-of-type {
+			border-left: 1px solid #898989;
+		}
+
+		.container2 {
+			height: 800px;
+			margin-top: 0.2px;
+			background-color: #E4E4E4;
+			background-image: url("bg1.png");
+			border-bottom: solid 10px;
+			border-color:#4aaaa5;
+		}
+
+		.container2b {
+			height: 800px;
+			margin-top: 0.2px;
+			background-color: #E4E4E4;
+			background-image: url("bg1.png");
+			border-bottom: solid 10px;
+			border-color:#4aaaa5;
+		}
+
+
+		.aboutMeContainer {
+			height: 440px;
+			width: 650px;
+			background-color: #FFFFFF;
+			position:relative;
+			top: 40px;
+			left: 0px;
+			border-style: solid;
+			border-color:#D3D3D3;
+		}
+		#contactContainer {
+			height: 600px;
+			width: 600px;
+			background-color: #FFFFFF;
+			margin-left: 5px;
+			position:relative;
+			top: 40px;
+			border: 3px solid #D3D3D3;
+		}
+
+		#portfolioContainer {
+			height: 720px;
+			width: 600px;
+			background-color: #FFFFFF;
+			position:relative;
+			top: 40px;
+			margin-left: 5px;
+			border-style: solid;
+			border-color:#D3D3D3;
+		}
+
+		.portfolio {
+			margin-left: 30px;
+			padding-top: 10px;
+		}
+
+		#portfolioBar {
+			border-top: 3px solid #D3D3D3;
+			
+		}
+		#contactHeader {
+			color: #4aaaa5;
+			font-weight: bold;
+			padding-left:30px;
+			font-family:'Georgia', Times, serif;
+			font-size: 30px;
+			padding-bottom: 10px;
+			padding-top: 20px
+
+		}
+
+		#text1 {
+			font-family: arial;
+			font-size: 19px;
+			color: #939da0;
+			float:left;
+			width: 375px;
+			padding-left: 25px;
+			margin-top: -10px
+
+
+		}
+		#profile1 {
+			width:175px;
+			padding-left:0px;
+			float:left;
+
+		}
+		#text2 {
+			font-family: arial;
+			font-size: 19px;
+			color: #939da0;
+			width: 580px;
+			padding-left:30px;
+			float:left;
+			margin-left:-5px;
+			
+		}
+		.ConnectWithMeContainer {
+			float:right;
+			margin-top: -407px;
+			height: 175px;
+			width:250px;
+			background-color: #FFFFFF;
+			border-style: solid;
+			border-color:#D3D3D3;
+			padding-left:20px;
+		}
+
+		.ConnectWithMeContainer2 {
+			float:right;
+			margin-top:-567px;
+			height: 175px;
+			width:250px;
+			background-color: #FFFFFF;
+			border-style: solid;
+			border: 3px solid;
+			border-color:#D3D3D3;
+			padding-left:20px;
+		}
+		
+		.ConnectWithMeContainer3 {
+			float:right;
+			margin-top:-690px;
+			height: 175px;
+			width:250px;
+			background-color: #FFFFFF;
+			border-style: solid;
+			border-color:#D3D3D3;
+			padding-left:20px;
+		}
+		.ConnectwithMeText {
+			font-family:'Georgia', Times, serif;
+			font-size: 22px;
+			color:#4aaaa5;
+			font-weight: bold;
+			width:200px;
+			border-bottom:solid;
+			border-color: #D3D3D3;
+			text-align: center;
+			padding-bottom:1px;
+			padding-left:8px;
+
+		}
+
+		.ConnectwithmeTextContact {
+			font-family:'Georgia', Times, serif;
+			font-size: 22px;
+			color:#4aaaa5;
+			font-weight: bold;
+			width:200px;
+			border-bottom:solid;
+			border-color: #D3D3D3;
+			text-align: center;
+			padding-bottom:1px;
+			padding-left:8px;
+			padding-top: 25px;
+		}
+		#gitHub {
+			height:70px;
+			margin-left:5px;
+		}
+		
+		#gitHub2 {
+			height:70px;
+			margin-left:5px;
+			padding-top: 10px
+		}
+
+		#linkedIn {
+			height:67.5px;
+			padding-left:5px;
+		}
+
+		#stackOverFlow {
+			height:67.5px;
+			padding-left:5px;
+		}
+
+		#copyrightcontainer {
+			background-color: #5B5B5B ;
+			height: 90px;
+			color: #D3D3D3;
+			margin-top:-20px;
+		}
+
+		#copyrightcontainer2 {
+			background-color: #5B5B5B ;
+			height: 90px;
+			color: #D3D3D3;
+			margin-top:-18px;
+		}
+		#copyrightText {
+			font-size:17px;
+			font-weight: bold;
+			text-align: center;
+			float:middle;
+			padding-top: 30px;
+
+
+		}
+
+	input[type=text], select {
+		    width: 70%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+	}
+
+	form {
+			position: relative;
+			left:35px;
+			width: 450px;
+			padding-left: 30px;
+			border-top: 3px solid #D3D3D3;
+			padding-top: 20px;
+		}
+
+	#message {
+			width: 70%;
+			height: 200px;
+		    display: inline-block;
+		    border: 1px solid #ccc;
+		    border-radius: 4px;
+		    box-sizing: border-box;
+	}
+
+	.contactText {
+			color: #707070;
+			font-family: Arial;
+			font-size: 20px;
+
+	}
+	
+	input[type=submit] {
+		    width: 20%;
+		    background-color: #4aaaa5;
+		    color: white;
+		    padding: 14px 20px;
+		    margin: 8px 0;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+		    font-size:15px;
+		}
+
+	#pic1  {
+			height: 175px;
+	}
+	#pic2  {
+			height: 175px;
+			margin-left:20px;
+	}
+	#pic3  {
+			height: 175px;
+	}
+	#pic4  {
+			height: 175px;
+			margin-left:20px;
+	}
+	#pic5  {
+			height: 175px;
+			width: 233px;
+	}
+
+
+
+
+	@media (max-width: 980px) {
+			.mainContentboxHeader1 {
+				margin-left: 23px;
+			}
+			.mainContentbox	{
+				margin-left:40px;
+				width:90%;
+			}
+			.aboutMeContainer {
+				width:65%;
+
+			}
+			.ConnectWithMeContainer {
+				width:230px;
+				margin-top:-408px;
+			}
+			#gitHub {
+				height:70px;
+				margin-left:-5px;
+			}
+			#text1 {
+				font-family: arial;
+				font-size: 18px;
+				width: 280px;
+				padding-left: 15px;
+				margin-top: -5px
+			}
+			.mainContent {
+				width: 400px ;
+			}
+			#text2 {
+				font-size: 18px;
+				width:500px;
+				margin-top: -5px;
+			}
+			#contactContainer {
+				width: 550px;
+			}
+			.ConnectWithMeContainer2 {
+				width: 230px;
+			}
+			#gitHub2 {
+				margin-left:-10px;
+				margin-top: 10px;
+			}
+			.ConnectWithMeContainer3 {
+				width:230px;
+			}
+			#portfolioContainer {
+				width:550px;
+			}
+			#pic1  {
+				height: 165px;
+			}
+			#pic2  {
+					height: 165px;
+					margin-left:15px;
+			}
+			#pic3  {
+					height: 165px;
+			}
+			#pic4  {
+					height: 165px;
+					margin-left:15px;
+			}
+			#pic5  {
+					height: 165px;
+					width: 233px;
+			}
+			.portfolio {
+				margin-left:20px;
+			}
+	}
+
