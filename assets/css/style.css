@@ -1,568 +1,387 @@
-body {
-	margin: 0
+/*==============================
+=            Layout            =
+==============================*/
+
+.container {
+    width: 80%;
+    max-width: 994px;
+    margin: 0 auto;
+    position: relative;
 }
 
-		.mainContentboxHeader1 {
-			width: 960px;
-			margin-left: 155px;
+div[class^="c-"] {
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+}
 
-		}
+.c-100 {
+    width: 100%;
+}
 
-		.mainContentbox {
-			width: 960px;
-			height: 800px;
-			margin-left: 155px;
+.c-60 {
+    width: 60%;
+}
 
-		}
+.c-30 {
+    width: 30%;
+}
 
-
-
-
-		.container1 {
-			height: 85px;
-			border-bottom: 5px;
-			background-color: #FFFFFF;
-    		border-bottom-style: solid;
-    		border-color:#D3D3D3;
-    		padding: 0 1em;
-		}
-		#name1 {
-			width:240px;
-			height: 100%;
-			line-height: 85px;
-			margin-top: 0px;
-			display: inline-block;
-			background-color:#4aaaa5;
-			font-size: 27px;
-			color: #FFFFFF ;
-			text-align: center;
-			font-family: 'Georgia', Times, serif;
-			font-weight: bold;
-		    align-items: center;
-		    justify-content: center;
-			}
-		#aboutMe {
-			font-family:'Georgia', Times, serif;
-			font-size: 30px;
-			color:#4aaaa5;
-			padding:20px;
-			padding-left: 20px;
-		}
-
-		.mainContent {
-			width: 600px;
-			padding-top: 30px;
-			border-top:3px solid #D3D3D3;
-			margin-top: -17px;
-			margin-left: 20px;
-		}
-		.top-bar {
-			float: right;
-			display: inline-block;
-			line-height: 25px;
-			margin: 30px 0;
-			padding: 0 10px;
-			font-family: 'Georgia';
-			font-size:20px;
-			color: #898989;
-			border-right: 1px solid #898989;
-
-		}
-
-		.top-bar:last-of-type {
-			border-left: 1px solid #898989;
-		}
-
-		.container2 {
-			height: 800px;
-			margin-top: 0.2px;
-			background-color: #E4E4E4;
-			background-image: url("bg1.png");
-			border-bottom: solid 10px;
-			border-color:#4aaaa5;
-		}
-
-		.container2b {
-			height: 800px;
-			margin-top: 0.2px;
-			background-color: #E4E4E4;
-			background-image: url("bg1.png");
-			border-bottom: solid 10px;
-			border-color:#4aaaa5;
-		}
-
-
-		.aboutMeContainer {
-			height: 440px;
-			width: 650px;
-			background-color: #FFFFFF;
-			position:relative;
-			top: 40px;
-			left: 0px;
-			border-style: solid;
-			border-color:#D3D3D3;
-		}
-		#contactContainer {
-			height: 600px;
-			width: 600px;
-			background-color: #FFFFFF;
-			margin-left: 5px;
-			position:relative;
-			top: 40px;
-			border: 3px solid #D3D3D3;
-		}
-
-		#portfolioContainer {
-			height: 720px;
-			width: 600px;
-			background-color: #FFFFFF;
-			position:relative;
-			top: 40px;
-			margin-left: 5px;
-			border-style: solid;
-			border-color:#D3D3D3;
-		}
-
-		.portfolio {
-			margin-left: 30px;
-			padding-top: 10px;
-		}
-
-		#portfolioBar {
-			border-top: 3px solid #D3D3D3;
-			
-		}
-		#contactHeader {
-			color: #4aaaa5;
-			font-weight: bold;
-			padding-left:30px;
-			font-family:'Georgia', Times, serif;
-			font-size: 30px;
-			padding-bottom: 10px;
-			padding-top: 20px
-
-		}
-
-		#text1 {
-			font-family: arial;
-			font-size: 19px;
-			color: #939da0;
-			float:left;
-			width: 375px;
-			padding-left: 25px;
-			margin-top: -10px
-
-
-		}
-		#profile1 {
-			width:175px;
-			padding-left:0px;
-			float:left;
-
-		}
-		#text2 {
-			font-family: arial;
-			font-size: 19px;
-			color: #939da0;
-			width: 580px;
-			padding-left:30px;
-			float:left;
-			margin-left:-5px;
-			
-		}
-		.ConnectWithMeContainer {
-			float:right;
-			margin-top: -407px;
-			height: 175px;
-			width:250px;
-			background-color: #FFFFFF;
-			border-style: solid;
-			border-color:#D3D3D3;
-			padding-left:20px;
-		}
-
-		.ConnectWithMeContainer2 {
-			float:right;
-			margin-top:-567px;
-			height: 175px;
-			width:250px;
-			background-color: #FFFFFF;
-			border-style: solid;
-			border: 3px solid;
-			border-color:#D3D3D3;
-			padding-left:20px;
-		}
-		
-		.ConnectWithMeContainer3 {
-			float:right;
-			margin-top:-690px;
-			height: 175px;
-			width:250px;
-			background-color: #FFFFFF;
-			border-style: solid;
-			border-color:#D3D3D3;
-			padding-left:20px;
-		}
-		.ConnectwithMeText {
-			font-family:'Georgia', Times, serif;
-			font-size: 22px;
-			color:#4aaaa5;
-			font-weight: bold;
-			width:200px;
-			border-bottom:solid;
-			border-color: #D3D3D3;
-			text-align: center;
-			padding-bottom:1px;
-			padding-left:8px;
-
-		}
-
-		.ConnectwithmeTextContact {
-			font-family:'Georgia', Times, serif;
-			font-size: 22px;
-			color:#4aaaa5;
-			font-weight: bold;
-			width:200px;
-			border-bottom:solid;
-			border-color: #D3D3D3;
-			text-align: center;
-			padding-bottom:1px;
-			padding-left:8px;
-			padding-top: 25px;
-		}
-		#gitHub {
-			height:70px;
-			margin-left:5px;
-		}
-		
-		#gitHub2 {
-			height:70px;
-			margin-left:5px;
-			padding-top: 10px
-		}
-
-		#linkedIn {
-			height:67.5px;
-			padding-left:5px;
-		}
-
-		#stackOverFlow {
-			height:67.5px;
-			padding-left:5px;
-		}
-
-		#copyrightcontainer {
-			background-color: #5B5B5B ;
-			height: 90px;
-			color: #D3D3D3;
-			margin-top:-20px;
-		}
-
-		#copyrightcontainer2 {
-			background-color: #5B5B5B ;
-			height: 90px;
-			color: #D3D3D3;
-			margin-top:-18px;
-		}
-		#copyrightText {
-			font-size:17px;
-			font-weight: bold;
-			text-align: center;
-			float:middle;
-			padding-top: 30px;
-
-
-		}
-
-	input[type=text], select {
-		    width: 70%;
-		    padding: 12px 20px;
-		    margin: 8px 0;
-		    display: inline-block;
-		    border: 1px solid #ccc;
-		    border-radius: 4px;
-		    box-sizing: border-box;
-	}
-
-	form {
-			position: relative;
-			left:35px;
-			width: 450px;
-			padding-left: 30px;
-			border-top: 3px solid #D3D3D3;
-			padding-top: 20px;
-		}
-
-	#message {
-			width: 70%;
-			height: 200px;
-		    display: inline-block;
-		    border: 1px solid #ccc;
-		    border-radius: 4px;
-		    box-sizing: border-box;
-	}
-
-	.contactText {
-			color: #707070;
-			font-family: Arial;
-			font-size: 20px;
-
-	}
-	
-	input[type=submit] {
-		    width: 20%;
-		    background-color: #4aaaa5;
-		    color: white;
-		    padding: 14px 20px;
-		    margin: 8px 0;
-		    border: none;
-		    border-radius: 4px;
-		    cursor: pointer;
-		    font-size:15px;
-		}
-
-	#pic1  {
-			height: 175px;
-	}
-	#pic2  {
-			height: 175px;
-			margin-left:20px;
-	}
-	#pic3  {
-			height: 175px;
-	}
-	#pic4  {
-			height: 175px;
-			margin-left:20px;
-	}
-	#pic5  {
-			height: 175px;
-			width: 233px;
-	}
-
-
-
-
-	@media (max-width: 980px) {
-			.mainContentboxHeader1 {
-				margin-left:0px;
-				width:100%;
-			}
-			#name1 {
-				margin-left:35px;
-			}
-			.top-bar {
-				font-size:17px;
-			}
-			.mainContentbox	{
-				margin-left:40px;
-				width:90%;
-				height:1000px;
-			}
-			.container2 {
-				height:1000px;
-			}
-			.aboutMeContainer {
-				width:50%;
-				height: 900px;
-
-			}
-			.container2bPortfolio {
-				height: 1800px;
-			}
-
-			#portfolioContainer {
-				height: 1500px;
-				width: 450px;
-			}
-			#profile1 {
-				width: 290px;
-			}
-
-			#pic1  {
-					height: 230px;
-					margin-top: 20px;
-			}
-			#pic2  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			#pic3  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			#pic4  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			#pic5  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			.ConnectWithMeContainer {
-				width:230px;
-				margin-top:-870px;
-				margin-right:120px;
-			}
-			#gitHub {
-				height:70px;
-				margin-left:-5px;
-			}
-			#text1 {
-				font-size: 18px;
-				width: 350px;
-				padding-left: 25px;
-				line-height:1.5em;
-				margin-top: 20px;
-			}
-			.mainContent {
-				width: 400px ;
-			}
-			#text2 {
-				font-size: 18px;
-				width: 350px;
-				line-height:1.5em;
-			}
-			#contactContainer {
-				width: 550px;
-			}
-			.ConnectWithMeContainer2 {
-				width: 230px;
-			}
-			.ConnectWithMeContainer3 {
-				margin-top:-1470px;
-				margin-right:90px;
-			}
-			#gitHub2 {
-				margin-left:-10px;
-				margin-top: 10px;
-			}
-			.ConnectWithMeContainer3 {
-				width:230px;
-			}
-	}
+.c-third {
+    width: 33.33333333%;
+}
 
 @media (max-width: 768px) {
-		.mainContentboxHeader1 {
-				margin-left:0px;
-				width:100%;
-		}
-		#name1 {
-				margin-left:0px;
-		}
-		.top-bar {
-			font-size:17px;
-		}
-		#name1 {
-			width:200px;
-		}
-		.mainContentbox	{
-				margin-left:5px;
-				width:100%;
-		}
-		.aboutMeContainer {
-				width:96%;
-				height: 450px;
-				margin-left:5px;
+    .container {
+        width: 92%;
+    }
 
-		}
+    .c-60, .c-30 {
+        width: 100%;
+    }
+}
 
-		#portfolioContainer {
-				width: 95%;
-				height:750px;
-		}
-		#contactContainer {
-			height: 550px;
-			width: 97%;
-		}
-		.container2b {
-			height:1000px;
-		}
-		#text1 {
-			font-family: arial;
-			font-size: 16px;
-			color: #939da0;
-			float:left;
-			width: 300px;
-			padding-left: 25px;
-			margin-top: -10px;
+@media (max-width: 640px) {
+    .container {
+        width: 100%;
+    }
 
+    .c-60, .c-30 {
 
-		}
-		#profile1 {
-			width:175px;
-			padding-left:0px;
-			float:left;
+    }
+}
 
-		}
-		#text2 {
-			font-family: arial;
-			font-size: 16px;
-			color: #939da0;
-			width: 530px;
-			padding-left:30px;
-			float:left;
-			margin-left:-5px;
-			
-		}
-		.ConnectWithMeContainer {
-				width:93%;
-				margin-top: 100px;
-				margin-right:10px;
-			}
-		.ConnectWithMeContainer2 {
-				width:94%;
-				margin-top: 100px;
-				margin-right:11px;
-			}
-		.ConnectWithMeContainer3 {
-				width:92%;
-				height: 160px ;
-				margin-top: 50px;
-				margin-right:15px;
-			}
-		.ConnectwithMeText {
-			width:95%;
-			text-align: left;
-			padding-bottom: 3px;
-		}
-		#gitHub2 {
-			margin-left: 40px;
-		}
-		#pic1  {
-				margin-top:7px;
-				height: 175px;
-				margin-left: 10px;
-		}
-		#pic2  {
-				height: 175px;
-				margin-left:0px;
-				width:230px;
-		}
-		#pic3  {
-				margin-top:7px;
-				height: 175px;
-				margin-left: 10px;
-				width:230px;;
-		}
-		#pic4  {
-				height: 175px;
-				margin-left:0px;
-				width:230px;
-		}
-		#pic5  {
-				margin-top:7px;
-				height: 175px;
-				margin-left: 10px;
-				width:230px;
-		}
+/*=====  End of Layout  ======*/
 
-	}
+/*==============================
+=            Navbar            =
+==============================*/
+
+.navbar {
+    position: relative;
+    border-bottom: 3px solid #c9c9c9;
+}
+
+.navbar-title {
+    display: inline-block;
+    padding: 0 2em;
+}
+
+.navbar-tools {
+    display: inline-block;
+    float: right;
+    padding: 28px 0;
+}
+
+.navbar-tools .navbar-items {
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    border-left: 1px solid black;
+}
+
+.navbar-items:first-of-type {
+    border-left: none;
+}
+
+@media (max-width: 640px) {
+    .navbar-title {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-tools {
+        display: block;
+        float: none;
+        padding: 16px;
+    }
+
+    .navbar-tools .navbar-items {
+        width: 33.33333333%;
+        margin-right: -4px;
+        border: none;
+    }
+}
+
+/*=====  End of Navbar  ======*/
+
+/*============================
+=            Card            =
+============================*/
+
+.card {
+    background-color: #ffffff;
+    margin: 1em 1em 1em 0;
+    border:3px solid #c9c9c9;
+}
+
+.card {
+    margin-right: 0;
+    padding: 1em;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: 3px solid #efefef;
+    color: #4aaaa6;
+    padding: 1em 0;
+}
+
+.card-content {
+    padding: 1em 0;
+}
+
+/* Portfolio Card */
+.pic {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 1em;
+    margin-right: -4px;
+}
+
+@media (max-width: 640px) {
+    .pic {
+        width: 100%;
+    }
+}
+
+/*=====  End of Card  ======*/
+
+/*==============================
+=            Footer            =
+==============================*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    min-height: calc(100vh - 100px);
+}
+
+.footer {
+  height: 100px;
+  text-align: center;
+  border-top: 8px solid #4aaaa6;
+}
+
+.footer-content {
+    line-height: 100px;
+}
+
+/*=====  End of Footer  ======*/
+
+/*==================================
+=            typography            =
+==================================*/
+
+.h1 {
+    font-size: 30px;
+    line-height: 80px;
+}
+
+.h2 {
+    font-size: 28px;
+}
+
+.h3 {
+    font-size: 24px;
+}
+
+.h4 {
+    font-size: 20px;
+}
+
+/*=====  End of typography  ======*/
+
+/*================================
+=            Palettes            =
+================================*/
+
+.white-text {
+    color: #ffffff;
+}
+
+.mint-text {
+    color: #4aaaa6;
+}
+
+.gray-text {
+    color: #767575;
+}
+
+.gray-bg {
+    background-color: #efefef;
+}
+
+.dark-gray-bg {
+    background-color: #666666;
+}
+
+.mint-bg {
+    background-color: #4aaaa6;
+}
+
+.white-bg {
+    background-color: #ffffff;
+}
+
+/*=====  End of Palettes  ======*/
+
+/*===============================
+=            Social             =
+================================*/
+
+.social .card-title {
+    padding: 0.5em 0;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon img {
+    width: 80%;
+    height: auto;
+}
+
+/*=====  End of Social   ======*/
+
+/*============================
+=            misc            =
+============================*/
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.profile-pic {
+    width:200px;
+}
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.m {
+    margin: 1em;
+}
+
+.m-l {
+    margin-left: 1em;
+}
+
+.m-r {
+    margin-right: 1em;
+}
+
+.m-b {
+    margin-bottom: 1em;
+}
+
+.m-t {
+    margin-top: 1em;
+}
+
+.p {
+    padding: 1em;
+}
+
+.p-l {
+    padding-left: 1em;
+}
+
+.p-r {
+    padding-right: 1em;
+}
+
+.p-b {
+    padding-bottom: 1em;
+}
+
+.p-t {
+    padding-top: 1em;
+}
+
+/*=====  End of misc  ======*/
+
+/*========================================
+=            about me section            =
+========================================*/
+
+.about-me {
+    margin-right: 2em;
+}
+
+@media (max-width: 980px) {
+    .about-me img {
+        width: 100%;
+        float: none;
+    }
+
+    .about-me p.h4 {
+        line-height: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        margin-right: 0;
+    }
+
+    .about-me img {
+        width: auto;
+        float: left;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-me {
+        margin: 1em;
+    }
+
+    .about-me img {
+        width: 100%;
+        float: none;
+    }
+}
+/*=====  End of about me seciotn  ======*/
+
+/*===============================
+=            Contact            =
+===============================*/
+.contact {
+    margin-right: 2em;
+}
+
+.contact input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: 2px #c9c9c9;
+}
+
+.contact input[type="submit"] {
+    width: 25%;
+    background-color: #4aaaa6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact .label {
+    color: grey;
+    font-size:20px;
+/*=====  End of Contact  ======*/

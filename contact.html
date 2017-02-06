@@ -1,78 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Michelle Contact Page </title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<title>Home Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
-<body>
-	<div class="container1">
-		<div class = mainContentboxHeader1>
-					<p id="name1"> Michelle Dai </p>
-					<div class="top-bar"> 
-						<a href="./index.html">About </a>
+<body class="gray-bg">
+	<div class="main">
+		<div class="navbar white-bg">
+			<div class="container">
+				<div class="navbar-title white-text mint-bg">
+					<div class="h1"> Michelle Dai</div>
+				</div>
+				<div class="navbar-tools gray-text">
+					<div class="navbar-items">
+						<a href="index.html">About </a>
 					</div>
-					<div class="top-bar"> 
-						<a href="./portfolio.html">Portfolio </a>
+					<div class="navbar-items">
+						<a href="portfolio.html">Portfolio </a>
 					</div>
-
-					<div class="top-bar">
-						 <a href="./contact.html" >Contact </a>
+					<div class="navbar-items">
+						<a href="contact.html">Contact </a>
 					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-
-	<div class="container2b">
-
-		<div class = mainContentbox>
-
-					<div id="contactContainer">
-							<h1 id="contactHeader"> Contact </h1>
-							 <form action="action_page.php">
-							    <label for="fname" class="contactText"> Name</label> <br>
-							    <input type="text" id="fname" name="firstname">
-
-								<br>
-
-							    <label for="lname" class="contactText"> Email </label><br>
-							    <input type="text" id="lname" name="lastname">
-
-							    <br>
-
-							    <label for="message" class="contactText"> Message </label><br>
-							    <input type="text" id="message" name="message">
-
-								<br>
-
-								<input type="submit" value="Submit">
-
+		<div class="content">
+			<div class="container">
+				<div class="c-60">
+					<div class="card contact">
+						<div class="card-title"> Contact</div>
+						<div class="card-content">
+							<form>
+								  <span class="label" for="fname">First Name</span>
+								  <input type="text" id="fname" name="fname">
+								  <span class="label" for="lname">Last Name</span>
+								  <input type="text" id="lname" name="lname">
+								  <span class="label" for="lname"> Message</span>
+								  <input type="text" id="message" name="message">
+								  <input type="submit" value="Submit">
 							</form>
 
-
-
+						</div>
 					</div>
-			
-			<div class="ConnectWithMeContainer2">
-				<p class="ConnectwithmeTextContact " > Connect with Me </p>
-				<a href="http://www.github.com" >
-					<img src="assets/images/icon1.jpg" alt="Github" id="gitHub2">
-				</a>
-
-				<a href="http://www.linkedin.com">
-					<img src="assets/images/icon2.jpg" alt="LinkedIn" id="linkedIn">
-				</a>
-
-				<a href="http://www.stackoverflow.com">
-					<img src="assets/images/icon3.jpg" alt="StackOverFlow" id="stackOverFlow">
-				</a>
-			</div> 
-
+				</div>
+				<div class="c-30">
+					<div class="card social">
+						<div class="card-title">Connect With Me</div>
+						<div class="card-content">
+							<div class="c-third">
+								<div class="social-icon">
+									<img src="./assets/images/icon1.jpg">
+								</div>
+							</div>
+							<div class="c-third">
+								<div class="social-icon">
+									<img src="./assets/images/icon2.jpg">
+								</div>
+							</div>
+							<div class="c-third">
+								<div class="social-icon">
+									<img src="./assets/images/icon3.jpg">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div id="copyrightcontainer2">
-		<p id="copyrightText"> © Copyright 2017 Michelle Dai <p>
+	<div class="footer m-t dark-gray-bg">
+		<p class="footer-content white-text">Copyright 2017 Michelle Dai</p>
 	</div>
-
-
 </body>
 </html>
