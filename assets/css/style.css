@@ -4,6 +4,7 @@
 
 .container {
     width: 80%;
+    max-width: 994px;
     margin: 0 auto;
     position: relative;
 }
@@ -22,8 +23,8 @@ div[class^="c-"] {
     width: 60%;
 }
 
-.c-40 {
-    width: 40%;
+.c-30 {
+    width: 30%;
 }
 
 .c-third {
@@ -35,7 +36,7 @@ div[class^="c-"] {
         width: 92%;
     }
 
-    .c-60, .c-40 {
+    .c-60, .c-30 {
         width: 100%;
     }
 }
@@ -45,7 +46,7 @@ div[class^="c-"] {
         width: 100%;
     }
 
-    .c-60, .c-40 {
+    .c-60, .c-30 {
 
     }
 }
@@ -112,6 +113,7 @@ div[class^="c-"] {
 .card {
     background-color: #ffffff;
     margin: 1em 1em 1em 0;
+    border:3px solid #c9c9c9;
 }
 
 .card {
@@ -121,6 +123,7 @@ div[class^="c-"] {
 
 .card-title {
     font-size: 28px;
+    font-weight: bold;
     border-bottom: 3px solid #efefef;
     color: #4aaaa6;
     padding: 1em 0;
@@ -128,6 +131,16 @@ div[class^="c-"] {
 
 .card-content {
     padding: 1em 0;
+}
+
+/* Portfolio Card */
+.pic {
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    padding: 1em;
+    margin-right: -4px;
 }
 
 /*=====  End of Card  ======*/
@@ -147,7 +160,7 @@ html, body {
 .footer {
   height: 100px;
   text-align: center;
-  border-top: 6px solid red;
+  border-top: 8px solid #4aaaa6;
 }
 
 .footer-content {
@@ -217,8 +230,8 @@ html, body {
 =            Social             =
 ================================*/
 
-.social {
-    
+.social .card-title {
+    padding: 0.5em 0;
 }
 
 .social-icon {
@@ -241,7 +254,9 @@ html, body {
     max-width: 100%;
     height: auto;
 }
-
+.profile-pic {
+    width:200px;
+}
 .f-l {
     float: left;
 }
@@ -293,7 +308,7 @@ html, body {
 /*=====  End of misc  ======*/
 
 /*========================================
-=            about me seciotn            =
+=            about me section            =
 ========================================*/
 
 .about-me {
@@ -334,3 +349,33 @@ html, body {
 }
 /*=====  End of about me seciotn  ======*/
 
+/*===============================
+=            Contact            =
+===============================*/
+.contact {
+    margin-right: 2em;
+}
+
+.contact input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-color: 2px #c9c9c9;
+}
+
+.contact input[type="submit"] {
+    width: 25%;
+    background-color: #4aaaa6;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact .label {
+    color: grey;
+    font-size:20px;
+/*=====  End of Contact  ======*/
