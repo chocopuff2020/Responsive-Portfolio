@@ -135,19 +135,23 @@ div[class^="c-"] {
 /*==============================
 =            Footer            =
 ==============================*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
 
-/* https://codepen.io/cbracco/pen/zekgx */
+.main {
+    min-height: calc(100vh - 100px);
+}
+
 .footer {
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 3em 1em;
+  height: 100px;
   text-align: center;
   border-top: 6px solid red;
 }
 
 .footer-content {
-
+    line-height: 100px;
 }
 
 /*=====  End of Footer  ======*/
