@@ -143,6 +143,12 @@ div[class^="c-"] {
     margin-right: -4px;
 }
 
+@media (max-width: 640px) {
+    .pic {
+        width: 100%;
+    }
+}
+
 /*=====  End of Card  ======*/
 
 /*==============================
