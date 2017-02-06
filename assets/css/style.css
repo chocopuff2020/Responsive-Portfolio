@@ -1,568 +1,111 @@
-body {
-	margin: 0
+/*==============================
+=            Navbar            =
+==============================*/
+
+.navbar {
+
 }
 
-		.mainContentboxHeader1 {
-			width: 960px;
-			margin-left: 155px;
+.navbar-title {
 
-		}
+}
 
-		.mainContentbox {
-			width: 960px;
-			height: 800px;
-			margin-left: 155px;
+.navbar-tools {
 
-		}
+}
 
+.navbar-tools .navbar-items {
 
+}
 
+/*=====  End of Navbar  ======*/
 
-		.container1 {
-			height: 85px;
-			border-bottom: 5px;
-			background-color: #FFFFFF;
-    		border-bottom-style: solid;
-    		border-color:#D3D3D3;
-    		padding: 0 1em;
-		}
-		#name1 {
-			width:240px;
-			height: 100%;
-			line-height: 85px;
-			margin-top: 0px;
-			display: inline-block;
-			background-color:#4aaaa5;
-			font-size: 27px;
-			color: #FFFFFF ;
-			text-align: center;
-			font-family: 'Georgia', Times, serif;
-			font-weight: bold;
-		    align-items: center;
-		    justify-content: center;
-			}
-		#aboutMe {
-			font-family:'Georgia', Times, serif;
-			font-size: 30px;
-			color:#4aaaa5;
-			padding:20px;
-			padding-left: 20px;
-		}
+/*============================
+=            Card            =
+============================*/
 
-		.mainContent {
-			width: 600px;
-			padding-top: 30px;
-			border-top:3px solid #D3D3D3;
-			margin-top: -17px;
-			margin-left: 20px;
-		}
-		.top-bar {
-			float: right;
-			display: inline-block;
-			line-height: 25px;
-			margin: 30px 0;
-			padding: 0 10px;
-			font-family: 'Georgia';
-			font-size:20px;
-			color: #898989;
-			border-right: 1px solid #898989;
+.card {
 
-		}
+}
 
-		.top-bar:last-of-type {
-			border-left: 1px solid #898989;
-		}
+.card-title {
 
-		.container2 {
-			height: 800px;
-			margin-top: 0.2px;
-			background-color: #E4E4E4;
-			background-image: url("bg1.png");
-			border-bottom: solid 10px;
-			border-color:#4aaaa5;
-		}
+}
 
-		.container2b {
-			height: 800px;
-			margin-top: 0.2px;
-			background-color: #E4E4E4;
-			background-image: url("bg1.png");
-			border-bottom: solid 10px;
-			border-color:#4aaaa5;
-		}
+.card-content {
 
+}
 
-		.aboutMeContainer {
-			height: 440px;
-			width: 650px;
-			background-color: #FFFFFF;
-			position:relative;
-			top: 40px;
-			left: 0px;
-			border-style: solid;
-			border-color:#D3D3D3;
-		}
-		#contactContainer {
-			height: 600px;
-			width: 600px;
-			background-color: #FFFFFF;
-			margin-left: 5px;
-			position:relative;
-			top: 40px;
-			border: 3px solid #D3D3D3;
-		}
+/*=====  End of Card  ======*/
 
-		#portfolioContainer {
-			height: 720px;
-			width: 600px;
-			background-color: #FFFFFF;
-			position:relative;
-			top: 40px;
-			margin-left: 5px;
-			border-style: solid;
-			border-color:#D3D3D3;
-		}
+/*==============================
+=            Footer            =
+==============================*/
 
-		.portfolio {
-			margin-left: 30px;
-			padding-top: 10px;
-		}
+.footer {
 
-		#portfolioBar {
-			border-top: 3px solid #D3D3D3;
-			
-		}
-		#contactHeader {
-			color: #4aaaa5;
-			font-weight: bold;
-			padding-left:30px;
-			font-family:'Georgia', Times, serif;
-			font-size: 30px;
-			padding-bottom: 10px;
-			padding-top: 20px
+}
 
-		}
+.footer-content {
 
-		#text1 {
-			font-family: arial;
-			font-size: 19px;
-			color: #939da0;
-			float:left;
-			width: 375px;
-			padding-left: 25px;
-			margin-top: -10px
+}
 
+/*=====  End of Footer  ======*/
 
-		}
-		#profile1 {
-			width:175px;
-			padding-left:0px;
-			float:left;
+/*==================================
+=            typography            =
+==================================*/
 
-		}
-		#text2 {
-			font-family: arial;
-			font-size: 19px;
-			color: #939da0;
-			width: 580px;
-			padding-left:30px;
-			float:left;
-			margin-left:-5px;
-			
-		}
-		.ConnectWithMeContainer {
-			float:right;
-			margin-top: -407px;
-			height: 175px;
-			width:250px;
-			background-color: #FFFFFF;
-			border-style: solid;
-			border-color:#D3D3D3;
-			padding-left:20px;
-		}
+.h1 {
+    font-size: 30px;
+}
 
-		.ConnectWithMeContainer2 {
-			float:right;
-			margin-top:-567px;
-			height: 175px;
-			width:250px;
-			background-color: #FFFFFF;
-			border-style: solid;
-			border: 3px solid;
-			border-color:#D3D3D3;
-			padding-left:20px;
-		}
-		
-		.ConnectWithMeContainer3 {
-			float:right;
-			margin-top:-690px;
-			height: 175px;
-			width:250px;
-			background-color: #FFFFFF;
-			border-style: solid;
-			border-color:#D3D3D3;
-			padding-left:20px;
-		}
-		.ConnectwithMeText {
-			font-family:'Georgia', Times, serif;
-			font-size: 22px;
-			color:#4aaaa5;
-			font-weight: bold;
-			width:200px;
-			border-bottom:solid;
-			border-color: #D3D3D3;
-			text-align: center;
-			padding-bottom:1px;
-			padding-left:8px;
+.h2 {
+    font-size: 28px;
+}
 
-		}
+.h3 {
+    font-size: 24px;
+}
 
-		.ConnectwithmeTextContact {
-			font-family:'Georgia', Times, serif;
-			font-size: 22px;
-			color:#4aaaa5;
-			font-weight: bold;
-			width:200px;
-			border-bottom:solid;
-			border-color: #D3D3D3;
-			text-align: center;
-			padding-bottom:1px;
-			padding-left:8px;
-			padding-top: 25px;
-		}
-		#gitHub {
-			height:70px;
-			margin-left:5px;
-		}
-		
-		#gitHub2 {
-			height:70px;
-			margin-left:5px;
-			padding-top: 10px
-		}
+.h4 {
+    font-size: 20px;
+}
 
-		#linkedIn {
-			height:67.5px;
-			padding-left:5px;
-		}
+/*=====  End of typography  ======*/
 
-		#stackOverFlow {
-			height:67.5px;
-			padding-left:5px;
-		}
+/*================================
+=            Palettes            =
+================================*/
 
-		#copyrightcontainer {
-			background-color: #5B5B5B ;
-			height: 90px;
-			color: #D3D3D3;
-			margin-top:-20px;
-		}
+.white-text {
+    color: #ffffff;
+}
 
-		#copyrightcontainer2 {
-			background-color: #5B5B5B ;
-			height: 90px;
-			color: #D3D3D3;
-			margin-top:-18px;
-		}
-		#copyrightText {
-			font-size:17px;
-			font-weight: bold;
-			text-align: center;
-			float:middle;
-			padding-top: 30px;
+.mint-text {
+    color: #4aaaa6;
+}
 
+.gray-text {
+    color: #767575;
+}
 
-		}
+.gray-bg {
+    background-color: #efefef;
+}
 
-	input[type=text], select {
-		    width: 70%;
-		    padding: 12px 20px;
-		    margin: 8px 0;
-		    display: inline-block;
-		    border: 1px solid #ccc;
-		    border-radius: 4px;
-		    box-sizing: border-box;
-	}
+.mint-bg {
+    background-color: #4aaaa6;
+}
 
-	form {
-			position: relative;
-			left:35px;
-			width: 450px;
-			padding-left: 30px;
-			border-top: 3px solid #D3D3D3;
-			padding-top: 20px;
-		}
+/*=====  End of Palettes  ======*/
 
-	#message {
-			width: 70%;
-			height: 200px;
-		    display: inline-block;
-		    border: 1px solid #ccc;
-		    border-radius: 4px;
-		    box-sizing: border-box;
-	}
+/*============================
+=            misc            =
+============================*/
 
-	.contactText {
-			color: #707070;
-			font-family: Arial;
-			font-size: 20px;
+.link {
 
-	}
-	
-	input[type=submit] {
-		    width: 20%;
-		    background-color: #4aaaa5;
-		    color: white;
-		    padding: 14px 20px;
-		    margin: 8px 0;
-		    border: none;
-		    border-radius: 4px;
-		    cursor: pointer;
-		    font-size:15px;
-		}
+}
 
-	#pic1  {
-			height: 175px;
-	}
-	#pic2  {
-			height: 175px;
-			margin-left:20px;
-	}
-	#pic3  {
-			height: 175px;
-	}
-	#pic4  {
-			height: 175px;
-			margin-left:20px;
-	}
-	#pic5  {
-			height: 175px;
-			width: 233px;
-	}
-
-
-
-
-	@media (max-width: 980px) {
-			.mainContentboxHeader1 {
-				margin-left:0px;
-				width:100%;
-			}
-			#name1 {
-				margin-left:35px;
-			}
-			.top-bar {
-				font-size:17px;
-			}
-			.mainContentbox	{
-				margin-left:40px;
-				width:90%;
-				height:1000px;
-			}
-			.container2 {
-				height:1000px;
-			}
-			.aboutMeContainer {
-				width:50%;
-				height: 900px;
-
-			}
-			.container2bPortfolio {
-				height: 1800px;
-			}
-
-			#portfolioContainer {
-				height: 1500px;
-				width: 450px;
-			}
-			#profile1 {
-				width: 290px;
-			}
-
-			#pic1  {
-					height: 230px;
-					margin-top: 20px;
-			}
-			#pic2  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			#pic3  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			#pic4  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			#pic5  {
-					height: 230px;
-					margin-left:28px;
-					width: 310px;
-					margin-top: 20px;
-			}
-			.ConnectWithMeContainer {
-				width:230px;
-				margin-top:-870px;
-				margin-right:120px;
-			}
-			#gitHub {
-				height:70px;
-				margin-left:-5px;
-			}
-			#text1 {
-				font-size: 18px;
-				width: 350px;
-				padding-left: 25px;
-				line-height:1.5em;
-				margin-top: 20px;
-			}
-			.mainContent {
-				width: 400px ;
-			}
-			#text2 {
-				font-size: 18px;
-				width: 350px;
-				line-height:1.5em;
-			}
-			#contactContainer {
-				width: 550px;
-			}
-			.ConnectWithMeContainer2 {
-				width: 230px;
-			}
-			.ConnectWithMeContainer3 {
-				margin-top:-1470px;
-				margin-right:90px;
-			}
-			#gitHub2 {
-				margin-left:-10px;
-				margin-top: 10px;
-			}
-			.ConnectWithMeContainer3 {
-				width:230px;
-			}
-	}
-
-@media (max-width: 768px) {
-		.mainContentboxHeader1 {
-				margin-left:0px;
-				width:100%;
-		}
-		#name1 {
-				margin-left:0px;
-		}
-		.top-bar {
-			font-size:17px;
-		}
-		#name1 {
-			width:200px;
-		}
-		.mainContentbox	{
-				margin-left:5px;
-				width:100%;
-		}
-		.aboutMeContainer {
-				width:96%;
-				height: 450px;
-				margin-left:5px;
-
-		}
-
-		#portfolioContainer {
-				width: 95%;
-				height:750px;
-		}
-		#contactContainer {
-			height: 550px;
-			width: 97%;
-		}
-		.container2b {
-			height:1000px;
-		}
-		#text1 {
-			font-family: arial;
-			font-size: 16px;
-			color: #939da0;
-			float:left;
-			width: 300px;
-			padding-left: 25px;
-			margin-top: -10px;
-
-
-		}
-		#profile1 {
-			width:175px;
-			padding-left:0px;
-			float:left;
-
-		}
-		#text2 {
-			font-family: arial;
-			font-size: 16px;
-			color: #939da0;
-			width: 530px;
-			padding-left:30px;
-			float:left;
-			margin-left:-5px;
-			
-		}
-		.ConnectWithMeContainer {
-				width:93%;
-				margin-top: 100px;
-				margin-right:10px;
-			}
-		.ConnectWithMeContainer2 {
-				width:94%;
-				margin-top: 100px;
-				margin-right:11px;
-			}
-		.ConnectWithMeContainer3 {
-				width:92%;
-				height: 160px ;
-				margin-top: 50px;
-				margin-right:15px;
-			}
-		.ConnectwithMeText {
-			width:95%;
-			text-align: left;
-			padding-bottom: 3px;
-		}
-		#gitHub2 {
-			margin-left: 40px;
-		}
-		#pic1  {
-				margin-top:7px;
-				height: 175px;
-				margin-left: 10px;
-		}
-		#pic2  {
-				height: 175px;
-				margin-left:0px;
-				width:230px;
-		}
-		#pic3  {
-				margin-top:7px;
-				height: 175px;
-				margin-left: 10px;
-				width:230px;;
-		}
-		#pic4  {
-				height: 175px;
-				margin-left:0px;
-				width:230px;
-		}
-		#pic5  {
-				margin-top:7px;
-				height: 175px;
-				margin-left: 10px;
-				width:230px;
-		}
-
-	}
+/*=====  End of misc  ======*/
