@@ -3,9 +3,9 @@
 ==============================*/
 
 .container {
-max-width: 80%;
-margin: 0 auto;
-position: relative;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
 }
 
 div[class^="c-"] {
@@ -21,12 +21,35 @@ div[class^="c-"] {
 .c-60 {
     width: 60%;
 }
+
 .c-40 {
     width: 40%;
 }
+
 .c-third {
     width: 33.33333333%;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 92%;
+    }
+
+    .c-60, .c-40 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: 100%;
+    }
+
+    .c-60, .c-40 {
+
+    }
+}
+
 /*=====  End of Layout  ======*/
 
 /*==============================
@@ -50,15 +73,34 @@ div[class^="c-"] {
 }
 
 .navbar-tools .navbar-items {
-    width: 150px;
+    width: 100px;
     display: inline-block;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     border-left: 1px solid black;
 }
 
-.navbar-items:last-of-type {
-    border-right: 1px solid black;
+.navbar-items:first-of-type {
+    border-left: none;
+}
+
+@media (max-width: 640px) {
+    .navbar-title {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-tools {
+        display: block;
+        float: none;
+        padding: 16px;
+    }
+
+    .navbar-tools .navbar-items {
+        width: 33.33333333%;
+        margin-right: -4px;
+        border: none;
+    }
 }
 
 /*=====  End of Navbar  ======*/
@@ -94,8 +136,14 @@ div[class^="c-"] {
 =            Footer            =
 ==============================*/
 
+/* https://codepen.io/cbracco/pen/zekgx */
 .footer {
-
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3em 1em;
+  text-align: center;
+  border-top: 6px solid red;
 }
 
 .footer-content {
@@ -147,6 +195,10 @@ div[class^="c-"] {
     background-color: #efefef;
 }
 
+.dark-gray-bg {
+    background-color: #666666;
+}
+
 .mint-bg {
     background-color: #4aaaa6;
 }
@@ -157,6 +209,25 @@ div[class^="c-"] {
 
 /*=====  End of Palettes  ======*/
 
+/*===============================
+=            Social             =
+================================*/
+
+.social {
+    
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon img {
+    width: 80%;
+    height: auto;
+}
+
+/*=====  End of Social   ======*/
+
 /*============================
 =            misc            =
 ============================*/
@@ -165,10 +236,6 @@ div[class^="c-"] {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.link {
-
 }
 
 .f-l {
@@ -220,3 +287,46 @@ div[class^="c-"] {
 }
 
 /*=====  End of misc  ======*/
+
+/*========================================
+=            about me seciotn            =
+========================================*/
+
+.about-me {
+    margin-right: 2em;
+}
+
+@media (max-width: 980px) {
+    .about-me img {
+        width: 100%;
+        float: none;
+    }
+
+    .about-me p.h4 {
+        line-height: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me {
+        margin-right: 0;
+    }
+
+    .about-me img {
+        width: auto;
+        float: left;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-me {
+        margin: 1em;
+    }
+
+    .about-me img {
+        width: 100%;
+        float: none;
+    }
+}
+/*=====  End of about me seciotn  ======*/
+
